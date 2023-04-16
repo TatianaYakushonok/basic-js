@@ -12,9 +12,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  *
  */
 function deleteDigit(n) {
-  //throw new NotImplementedError('Not implemented');
-  // remove line with error and write your code here
-  let result = 0;
+    let result = 0;
     const numArr = [];
     while (n) {
         numArr.push(n % 10);
